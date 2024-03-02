@@ -16,27 +16,27 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/Basic-Ecommerce-App/",
       element: <><Navbar /><Home /><Footer /></>
     },
     {
-      path: "/about",
+      path: "/Basic-Ecommerce-App/about",
       element: <><Navbar /><About /><Footer /></>
     },
     {
-      path: "/login",
+      path: "/Basic-Ecommerce-App/login",
       element: <><Navbar /><Login /><Footer /></>
     },
     {
-      path: "/cart",
+      path: "/Basic-Ecommerce-App/cart",
       element: <><Navbar /><Cart /><Footer /></>
     },
     {
-      path: "/account",
+      path: "/Basic-Ecommerce-App/account",
       element: <><Navbar /><Account /><Footer /></>
     },
     {
-      path: "/user/:username",
+      path: "/Basic-Ecommerce-App/user/:username",
       element: <><Navbar /><User /><Footer /></>
     }
   ])

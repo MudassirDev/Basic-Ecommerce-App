@@ -97,16 +97,16 @@ function Navbar() {
                 <div className={showMenu ? "w-full md:flex md:items-center md:w-auto" : "hidden w-full md:flex md:items-center md:w-auto"} id="menu">
                     <ul className="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0" >
                         <li>
-                            <NavLink className="md:p-4 py-2 block hover:text-purple-400" to="/">Home</NavLink>
+                            <NavLink className="md:p-4 py-2 block hover:text-purple-400" to="/Basic-Ecommerce-App/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink className="md:p-4 py-2 block hover:text-purple-400" to="/about">About</NavLink>
+                            <NavLink className="md:p-4 py-2 block hover:text-purple-400" to="/Basic-Ecommerce-App/about">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="md:p-4 py-2 hover:text-purple-400 relative md:block flex items-center gap-1" to="/cart">Cart {cart.length > 0 && <span className='relative md:absolute rounded-full bg-black text-white md:top-[12px] md:right-0 w-[15px] h-[15px] flex justify-center items-center'><span className='text-[8px]'>{cartCount}</span></span>}</NavLink>
+                            <NavLink className="md:p-4 py-2 hover:text-purple-400 relative md:block flex items-center gap-1" to="/Basic-Ecommerce-App/cart">Cart {cart.length > 0 && <span className='relative md:absolute rounded-full bg-black text-white md:top-[12px] md:right-0 w-[15px] h-[15px] flex justify-center items-center'><span className='text-[8px]'>{cartCount}</span></span>}</NavLink>
                         </li>
                         <li>
-                            <NavLink className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" to="/account">Account</NavLink>
+                            <NavLink className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" to="/Basic-Ecommerce-App/account">Account</NavLink>
                         </li>
                     </ul>
                 </div>
